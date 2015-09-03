@@ -1,6 +1,19 @@
+body{
+	background: #004b72;
+}
+.container{
+	max-width: 970px;
+	/*background-color: red;*/
+}
 span.line{
 	border: 2px solid yellow;
 	width: 100%;
 	display: block;
 	margin:20px 0px;
+}
+p{
+	color: #d2d2d2;
+}
+ul li.nav{
+	display: inline;
 }
