@@ -1,19 +1,81 @@
 body{
 	background: #004b72;
 }
+
 .container{
 	max-width: 970px;
 	/*background-color: red;*/
 }
+
 span.line{
 	border: 2px solid yellow;
 	width: 100%;
 	display: block;
 	margin:20px 0px;
 }
+
+.logo{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 48px;
+	float: left;
+}
+.biline{
+	float: left;
+	line-height: 68px;
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+}
+
 p{
 	color: #d2d2d2;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
 }
-ul li.nav{
-	display: inline;
+
+a{color: #d2d2d2;}
+.fontcolor{color: #d2d2d2;}
+.center{margin: auto; float:none;}
+.red{background-color: red;}
+.ml60{margin-left: 60px;}
+.ml40{margin-left: 40px}
+.mt10{margin-top: 10px;}
+.mt15{margin-top: 15px;}
+.mt20{margin-top: 20px;}
+
+
+.nav li a {
+	color: #d2d2d2;
+	background-color: #004b72;
+	font-size: 16.5px;
+}
+
+/*.nav li.active a {
+	background-color: #004b72;
+	border-bottom:2px solid #e4d20b;
+	border-radius:0px;
+}*/
+
+ul.nav{
+	/*margin-bottom: 20px;*/
+	/*line-height: 68px;*/
+
+}
+ul.nav li{float: left;}
+.nav li.active a:hover, .nav li a:hover{
+	background-color: #004b72;
+	color: #d2d2d2;
+	border-bottom:2px solid #e4d20b;
+	border-radius:0px;
+}
+
+span{
+	color:#e4d20b;
 }
